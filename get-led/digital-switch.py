@@ -13,5 +13,4 @@ while True:
     if GPIO.input(button):
         state = not state
         GPIO.output(led, state)
-        state = not state
         time.sleep(period)
