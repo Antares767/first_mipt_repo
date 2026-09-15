@@ -3,7 +3,7 @@ import time
 
 GPIO.setmode(GPIO.BCM)
 led = 26
-botton = 13
+button = 13
 GPIO.setup(led, GPIO.OUT)
 GPIO.setup(button, GPIO.IN)
 state = 0
