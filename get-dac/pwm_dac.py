@@ -26,6 +26,10 @@ class PWM_DAC:
 
         duty_cycle = (voltage / self.dynamic_range) * 100
         self.pwm.ChangeDutyCycle(duty_cycle)
+        
+
+        if self.verbose:
+            print(f"выставлено напряжение {voltage:.2f}")
 
     def deinit(self):
         self.pwm.stop()
