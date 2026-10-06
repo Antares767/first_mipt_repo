@@ -55,4 +55,4 @@ if __name__ == "__main__":
                 print("Вы ввели не число. Попробуйте ещё раз\n")
 
     finally:
-        dac.deinit()
+        dac.deinit() 
